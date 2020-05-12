@@ -1,0 +1,16 @@
+{
+  "name": "tspackage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TS Git package test",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "author": "Richard Ejem",
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "typescript": "^3.8.3"
+  }
+}
